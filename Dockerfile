@@ -6,5 +6,3 @@ RUN curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o 
 RUN unzip awscliv2.zip
 CMD ["sh", "./aws/install"]
 CMD ["sh", "aws2 --version"]
-RUN rm /var/cache/apk/*
-CMD ["/bin/bash"]
